@@ -1,0 +1,47 @@
+html
+{
+    font-size: 20px;
+    color: blue;
+}
+
+body
+{
+    width:100vw;
+    height:100vh;
+}
+
+.container
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    margin: auto;
+    padding: 3rem;
+    background-color: #FFF;
+}
+
+.input-line-container
+{
+    font-size: 2rem;
+    background-color: #FFF;
+    padding: 0.5rem;
+    border: 2px solid #000;
+}
+
+.line-marker
+{
+    color:green;
+    margin: 0.5rem;
+}
+
+.input-line
+{
+    display: inline;
+}
+
+.input-line:active
+{
+    display: none;
+}
